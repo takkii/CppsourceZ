@@ -1,3 +1,3 @@
 # Windows環境CppsourceZ
 
-CppSoureの進化版。
+CppSourceの進化版。
