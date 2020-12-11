@@ -6,3 +6,4 @@
 // SDKDDKVer.h をインクルードする前に、サポート対象とするプラットフォームを示すように _WIN32_WINNT マクロを設定します。
 
 #include <SDKDDKVer.h>
+#include <Windows.h>

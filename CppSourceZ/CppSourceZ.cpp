@@ -97,15 +97,15 @@ int main(void)
         
 		// long ÅÃ long equal.
         if (cpp_ver == cpp17)
-            cout << "åªç›ÇÃ C++ : C++17" << endl;
+            OutputDebugString(L"åªç›ÇÃ C++ : C++17 ");
         else if (cpp_ver == cpp14)
-            cout << "åªç›ÇÃ C++ : C++14" << endl;
+            OutputDebugString(L"åªç›ÇÃ C++ : C++14 ");
         else if (cpp_ver == cpp11)
-            cout << "åªç›ÇÃ C++ : C++11" << endl;
+            OutputDebugString(L"åªç›ÇÃ C++ : C++11 ");
         else if (cpp_ver == cpp98)
-            cout << "åªç›ÇÃ C++ : C++98" << endl;
+            OutputDebugString(L"åªç›ÇÃ C++ : C++98 ");
         else
-            cout << "åªç›ÇÃ C++ : pre-standard C++" << endl;
+            OutputDebugString(L"åªç›ÇÃ C++ : pre-standard ");
         
         return 0;
     }
