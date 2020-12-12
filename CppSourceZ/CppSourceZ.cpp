@@ -1,5 +1,4 @@
 // CppSourceZ.cpp : コンソール アプリケーションのエントリ ポイントを定義します。
-//
 
 #include "stdafx.h"
 
@@ -30,7 +29,6 @@ int main(void)
 		y<<"日";
 		
 		string result_reiwa = y.str();
-		
 		
 		stringstream z;
 		z<<"20";
