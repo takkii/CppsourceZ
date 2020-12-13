@@ -46,9 +46,12 @@ int main(void)
 		z<<"•b";
 		
 		string result = z.str();
+
+		// OneYear ¨ 365 days.
+		int OneYear_Days = 365;
 		
 		int redays = nowlt->tm_yday;
-		int redays_mini = 365-redays;
+		int redays_mini = OneYear_Days - redays;
 		
 		string tim = "‚ğ•\¦";
 		string gantan = "—ˆ”N‚Ì1Œ1“ú‚Ü‚Å‚ ‚Æ";
